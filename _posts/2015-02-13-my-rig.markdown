@@ -1,0 +1,39 @@
+---
+layout: post
+title: "My rig."
+date: 2015-02-13T06:24:33-05:00
+---
+
+I'm not sure how to start this blog, so I figured I'd go with an intro post outlining my daily driver: all the tools I use every day to write code.
+
+Without further ado, here's the hardware.
+
+* **Machine**: A 15" Retina MacBook Pro, clamshelled with a Cinema display.
+* **Keyboard**: a blank, black tenkeyless WASD with Brown switches and a red Escape keycap.
+	* **Layout**: Colemak, since about 2012.
+* **Mouse**: Logitech's laser trackball (M570).
+
+But what is an engineer without software:
+
+* **OS**: X, Yosemite.
+* **Browser**: Safari. #datiCloudintegration
+* **Editor**: Sublime Text 3. Coming off of PyCharm.
+
+As it turns out, I am enjoying the simplicity and performance of a text editor over an IDE, as much as I love JetBrains' stuff in general.
+
+[Atom](http://atom.io/) has also caught my eye, but Sublime is certainly more mature. And it looks like a future switch to Atom would be pretty low-overhead, coming from Sublime.
+
+* **Highlighting**: Tomorrow Night. Thanks to Mike from Coder Radio for name-dropping this at one point.
+* **Font**: [Proggy Tiny](http://www.proggyfonts.net). Discovered via Jeff Atwood's 'Progamming Fonts' (sic) blog post.
+* **Spacing**: Tabs, 2-wide. Yes, it's a pain to space-align continuations--maybe Sublime has a plugin that would do this?--but I like the fact that tabs are a cleaner abstraction for an indent level. Also, another guy on the team prefers 4-wide, so we can accomodate both of us without needing to compromise. Everyone wins.
+
+Stack:
+
+* **Languages**: [6to5](http://6to5.org)-flavored ES6 and Python 2.7. I would love to go full-stack JS, I think.
+* **Build**: Gulp.
+* **Module loader**: [RequireJS](http://requirejs.org). Thinking of moving to Browserify or Webpack. Maybe the latter on account of what a Facebook open-source fanboy I'm becoming. React-y projects seem to lean towards Webpack.
+* **Killer frameworks**: Express, React, D3. Regenerator (via 6to5).
+
+I'm considering moving to io.js from Node, as well, but it's tough to distill the pros and cons of each from the discussions I've found around on the net.
+
+This post has been more historical record than informational or educational, unfortunately. I intend to shoot for the latter in general. We'll see how close I get.
